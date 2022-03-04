@@ -15,11 +15,22 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-weight: bold;
+}
+
+.text{
+  margin-bottom: 15px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;/**/
+  gap: 50px;/**/
+  padding: 10px;
 }
 
 .icon {
@@ -27,10 +38,12 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 200px;/**/
   height: 42px;
-  border-radius: 50%;
   display: flex;
+  flex-basis: auto;
+  margin: 10px;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -46,6 +59,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px 0;
 }
 
 button {
